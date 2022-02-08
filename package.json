@@ -2,6 +2,9 @@
   "name": "node.js-register-login-app",
   "version": "1.0.0",
   "description": "This is a user login and registration app using Node.js, Express, Mongoose and express-sessions. :+1:",
+  "engines": {
+    "node":"12.18.0"
+  },
   "main": "server.js",
   "dependencies": {
     "connect-mongo": "^3.0.0",
