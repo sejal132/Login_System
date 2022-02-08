@@ -1,33 +1,33 @@
 body{
 	text-align: center !important;
 	background-image: url(bg.jpg);
-	background-size: 2000px 700px;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	
 	
 
 }
 p{
-	margin-top: 20px;
-	font-size: 30px;
+	margin-top: -2%;
+	font-size: 4vw;
 	color:white;
 }
 input{
 	text-align: center;
-	width: 400px;
+	width: 10%;
 	opacity:0.7;
 	
 	
 }
 #LangTable{
-    margin-bottom: 15px;
+    margin-bottom: 15%;
 }
 .form-card{
     background-color: rgb(136, 133, 133)f;
-    border-radius: 30px;
-    margin-top: 100px;
-	margin-left: 90px;
-	margin-right: 50px;
+    border-radius: 10%;
+    margin-top: 4%;
+	margin-left: 5.5%;
+	margin-right: 5.5%;
 	opacity: 0.9;
 	
 }
@@ -40,27 +40,220 @@ input{
 	font-family: "Sofia", sans-serif;
 }
 .form-control{
-	width: 500px;
-	margin-left: 300px;
-	margin-right: 550px;
-	border-radius: 30px;
+	width: 40%;
+	margin-left: 28%;
+	margin-right: 28%;
+	border-radius: 10em;
 }
 .form-group{
 	opacity:1;
+	margin-top: 1%;
 }
 span{
 	color:white;
-}
+	}
 .btn{
 	opacity:1;
 	background-color:#dd8d50;
-	margin-left: -20px;
+	width: 30%;
+	margin-left: 24%;
+	margin-right: 28%;
+	
 }
 
 a{
 	color:white;
+	margin-bottom: 20%;
 }
 .table{
 	background-color: rgb(238, 236, 236);
+	width:40%;
+	margin-left: 30%;
+	height:50%;
+	margin-right: 30%;
+}
+@media only screen and (max-width:1100px){
+	body{
+		background-size: 110% 275%;
+	}
+	.form-group{
+		margin-top: 5%;
+	}
+	p{
+		margin-top: 25%;
+		margin-left:18%;
+		font-size: 8vw;
+	}
+	.form-control{
+	width: 60%;
+	border-radius: 4em;
+
+	}
+	.form-card{
+		background-color: rgb(136, 133, 133)f;
+		border-radius: 10%;
+		margin-top: 5%;
+		margin-left: -3%;
+		margin-right: 6%;
+		opacity: 0.9;
+		
+	}
+	.table{
+		margin-left:30%;
+		width:60%;
+		height:60%;
+		margin-top:5%;
+		
+		
+	}
+	
+	.btn{
+		margin-left: 40%;
+		margin-right: 24%;
+	
+
+	}
+
 	
 }
+@media only screen and (max-device-width:900px){
+	body{
+		background-size: 110% 250%;
+	}
+	.form-group{
+		margin-top: 5%;
+	}
+	p{
+		margin-top: 25%;
+		margin-left:18%;
+		font-size: 7vw;
+	}
+	.form-control{
+	width: 60%;
+	border-radius: 4em;
+
+	}
+	.form-card{
+		background-color: rgb(136, 133, 133)f;
+		border-radius: 10%;
+		margin-top: 5%;
+		margin-left: -3%;
+		margin-right: 6%;
+		opacity: 0.9;
+		
+	}
+	.table{
+		margin-left:30%;
+		
+	}
+	.btn{
+		margin-left: 40%;
+		margin-right: 24%;
+	
+
+	}
+
+}
+@media only screen and (max-device-width:600px){
+	body{
+		background-size: 105% 275%;
+	}
+	.form-group{
+		margin-top: 5%;
+	}
+	p{
+		margin-top: 20%;
+		margin-left:12%;
+		font-size: 10vw;
+	}
+	.form-control{
+	width: 60%;
+	border-radius: 5em;
+
+	}
+	.form-card{
+		background-color: rgb(136, 133, 133)f;
+		border-radius: 10%;
+		margin-top: 5%;
+		margin-left: -3%;
+		margin-right: 6%;
+		opacity: 0.9;
+		
+	}
+	.table{
+		margin-left:25%;
+	}
+	.btn{
+		margin-left: 36%;
+		margin-right: 24%;
+	
+
+	}
+
+}
+@media only screen and (max-device-width:400px ){
+	body{
+		background-size: 109% 220%;
+	}
+	.form-group{
+		margin-top: 5%;
+	}
+	p{
+		margin-top: 20%;
+		font-size: 7vw;
+	}
+	.form-control{
+	width: 60%;
+	border-radius: 5em;
+
+	}
+	.form-card{
+		background-color: rgb(136, 133, 133)f;
+		border-radius: 10%;
+		margin-top: 5%;
+		margin-left: -2%;
+		margin-right: 6%;
+		opacity: 0.9;
+		
+	}
+	.table{
+		margin-left:15%;
+	}
+}
+@media only screen and (max-device-width:300px ){
+	body{
+		background-size: 109% 200%;
+	}
+	.form-group{
+		margin-top: 5%;
+	}
+	p{
+		margin-top: 20%;
+		font-size: 8vw;
+		margin-left:20%;
+	}
+	.form-control{
+	width: 70%;
+	border-radius: 4em;
+
+	}
+	.form-card{
+		background-color: rgb(136, 133, 133)f;
+		border-radius: 10%;
+		margin-top: 5%;
+		margin-left: -16%;
+		margin-right: 6%;
+		opacity: 0.9;
+		
+	}
+	.table{
+		margin-left:15%;
+	}
+	.btn{
+		margin-left: 45%;
+		
+	
+	}
+	
+}
+
